@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="content-encoding" content="gzip" />
     <title>Unity WebGL Player | My project</title>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
@@ -26,9 +25,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Build.data.gz",
-        frameworkUrl: "Build/Build.framework.js.gz",
-        codeUrl: "Build/Build.wasm.gz",
+        dataUrl: "Build/Build.data.unityweb",
+        frameworkUrl: "Build/Build.framework.js.unityweb",
+        codeUrl: "Build/Build.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "My project",
